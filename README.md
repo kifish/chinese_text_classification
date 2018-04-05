@@ -19,3 +19,7 @@ art类样本数740 </br>
 literature类样本数33 </br>
 precision较高。所有错误都是把literature类的预测成了art类。显然是因为数据集的类别不平衡。
 
+this project:vector space--->tfidf--->traditional machine learning. </br>
+see also: </br>
+deep learning(which doesn‘t need to extract features by tfidf)
+https://github.com/kifish/cnn-text-classification-tf   </br>
