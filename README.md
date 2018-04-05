@@ -15,7 +15,7 @@ recall:0.960 </br>
 f1-score:0.944 </br>
 
 分析: 
-art样本数740
-literature样本数33
+art类样本数740 </br>
+literature类样本数33 </br>
 precision较高。所有错误都是把literature类的预测成了art类。显然是因为数据集的类别不平衡。
 
