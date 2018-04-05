@@ -21,10 +21,10 @@ for flabel,file_name,pred_cate in zip(test_set.label,test_set.filenames,pred):
     if flabel != pred_cate:
         print(file_name,"实际类别:",flabel,"--->预测类别:",pred_cate)
 
-print("预测完毕")
+print("predictions finished")
 def metrics_result(actual,pred):
-    print('精度:{0:.3f}'.format(metrics.precision_score(actual,pred,average='weighted')))
-    print('召回:{0:0.3f}'.format(metrics.recall_score(actual,pred,average='weighted')))
+    print('precision:{0:.3f}'.format(metrics.precision_score(actual,pred,average='weighted')))
+    print('recall:{0:0.3f}'.format(metrics.recall_score(actual,pred,average='weighted')))
     print('f1-score:{0:0.3f}'.format(metrics.f1_score(actual,pred,average='weighted')))
 
 metrics_result(test_set.label,pred)
