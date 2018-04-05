@@ -2,9 +2,9 @@
 
 version:python3.6.3
 
-python main.py
+run:python main.py
 
-output: 
+output: </br>
 ...... </br>
 ./test_corpus_seg/C4-Literature/C4-Literature61.txt 实际类别: C4-Literature --->预测类别: C3-Art  </br>
 ./test_corpus_seg/C4-Literature/C4-Literature49.txt 实际类别: C4-Literature --->预测类别: C3-Art  </br>
