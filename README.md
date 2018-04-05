@@ -21,5 +21,5 @@ precision较高。所有错误都是把literature类的预测成了art类。显�
 
 this project:vector space--->tfidf--->traditional machine learning. </br>
 see also: </br>
-deep learning(which doesn‘t need to extract features by tfidf)
+deep learning(which doesn‘t need to extract features by tfidf) </br>
 https://github.com/kifish/cnn-text-classification-tf   </br>
